@@ -22,16 +22,7 @@ function createWindow() {
       contextIsolation: true,
       webSecurity: true,
     },
-    frame: false,
-    titleBarStyle: 'hidden',
     show: false,
-  });
-
-  // custom title bar overlay
-  mainWindow.setTitleBarOverlay({
-    color: '#030d10',
-    symbolColor: '#00e5ff',
-    height: 32,
   });
 
   mainWindow.loadURL(NOVA_URL);
