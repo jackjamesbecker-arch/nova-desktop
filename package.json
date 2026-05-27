@@ -19,18 +19,15 @@
       "target": [
         { "target": "nsis", "arch": ["x64"] }
       ],
-      "icon": "assets/icon.ico"
+      "icon": "assets/icon.png"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "assets/icon.ico",
-      "uninstallerIcon": "assets/icon.ico",
-      "installerHeaderIcon": "assets/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "NOVA",
-      "license": "LICENSE.txt"
+      "license": "NOVA_LICENSE.txt"
     },
     "extraResources": [
       { "from": "assets", "to": "assets" }
